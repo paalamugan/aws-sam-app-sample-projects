@@ -1,0 +1,6 @@
+{
+  "Parameters": {
+    "ENDPOINT_OVERRIDE": "",
+    "SAMPLE_TABLE": "dynamodb-demo-SampleTable-1BNH55BM90NBG"
+  }
+}

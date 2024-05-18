@@ -1,0 +1,22 @@
+{
+    "Comment": "A Hello World example of the Amazon States Language using a Pass state",
+    "StartAt": "HelloWorld",
+    "States": {
+        "HelloWorld": {
+            "Type": "Task",
+            "Resource": "arn:aws:states:::dynamodb:putItem",
+            "Parameters": {
+                "TableName": "test-enclosed-items",
+                "Item": {
+                    "enclosedItemType": {
+                        "S.$": "$.enclosedItemType"
+                    },
+                    "itemCode": {
+                        "S.$": "$.itemCode"
+                    }
+                }
+            },
+            "End": true
+        }
+    }
+}
