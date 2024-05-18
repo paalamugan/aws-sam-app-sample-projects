@@ -1,5 +1,5 @@
 # aws-sam-app-sample-projects
-AWS sam app Sample example projects.
+AWS sam app sample example projects that included step-functions-demo, lambda-function-demo and dynamodb-demo.
 
 ## Pre-requisites
 
