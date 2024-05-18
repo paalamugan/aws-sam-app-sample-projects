@@ -10,6 +10,8 @@ AWS sam app sample example projects that included step-functions-demo, lambda-fu
 
 ## Run the Docker Compose Using Below Command
 
+Below command will the start docker container of `aws-stepfunctions-local`, `dynamodb-local`, `dynamodb-admin` and `localstack-local`. You can learn more about `localstack` in [here](https://github.com/localstack/localstack).
+
 ```sh
 docker-compose up -d
 ```
