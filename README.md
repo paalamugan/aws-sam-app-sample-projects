@@ -1,4 +1,4 @@
-# aws-sam-app-samples
+# aws-sam-app-sample-projects
 AWS sam app Sample example projects.
 
 ## Pre-requisites
